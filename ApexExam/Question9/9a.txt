@@ -1,0 +1,2 @@
+query inside a loop
+and also dml operation inside a loop

@@ -1,0 +1,2 @@
+while querying the object we should use WITH USER_MODE 
+it will make sure the user permission very easily

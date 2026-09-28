@@ -1,0 +1,8 @@
+AND(Opportunity.StageName!='Closed Won',
+
+OR(
+
+    ISBLANK(Opportunity.Amount),
+    Opportunity.Amount<0
+)
+)

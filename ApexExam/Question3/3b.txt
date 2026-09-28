@@ -1,0 +1,6 @@
+validation rules are for a valid input data
+before save flow sets a value for Business_Category__c for relavant conditions
+then the trigger calls for updating value and it sets a value for Risk_Level__c.
+then same trigger being called again for Opportunity_Stage_Audit__c  field for the conditions
+lastl record automation updates another field from opportunity object
+this is called the order of execution

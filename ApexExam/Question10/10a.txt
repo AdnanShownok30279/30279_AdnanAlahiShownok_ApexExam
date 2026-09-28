@@ -1,0 +1,5 @@
+setting up the external api in salesforce 
+then using the callout I will call the api
+
+set a schedular to process the data at a particular time
+

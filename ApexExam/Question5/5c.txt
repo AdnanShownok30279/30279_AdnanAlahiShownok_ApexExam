@@ -1,0 +1,13 @@
+try {
+
+insert leadsToInsert;
+
+
+} catch (DmlException e) {
+System.debug(e.getMessage());
+
+
+}
+finally{
+    System.debug('finished );
+}

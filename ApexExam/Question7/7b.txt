@@ -1,0 +1,6 @@
+Assert.areNotEqual(value,desirevalue)
+its for negative test
+
+
+Assert.areEqual(value,desirevalue);
+this is for positive test

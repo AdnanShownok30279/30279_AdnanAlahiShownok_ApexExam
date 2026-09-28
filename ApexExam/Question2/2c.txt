@@ -1,0 +1,34 @@
+trigger OpportunityTrigger on Opportunity (after insert, after update) {
+
+List<Account> Account acc = [
+SELECT Id, Strategic__c
+FROM Account
+WHERE Id = :opp.AccountId
+];
+List<Account>acs=new List<Account>();
+for (Opportunity opp : Trigger.new) {
+
+
+for(Account ac:acc){
+    if(ac.AccountId==op.AccountId){
+      acs.add(ac);
+    }
+}
+
+
+
+Integer  totalAmount = 0;
+for (Opportunity item : opportunities) {
+if (item.Amount != null) {
+totalAmount += item.Amount;
+}
+}
+if (totalAmount >= 5000000) {
+acs.Strategic__c = true;
+
+}
+}
+
+update acs;
+
+}

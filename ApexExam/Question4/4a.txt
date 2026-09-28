@@ -1,0 +1,4 @@
+Object/field level access defines if the user Can edit/view the object/field
+
+record level access defines if a user can view/edit the record of a field.
+additionally he can have access to view/edit his or other persons record

@@ -1,0 +1,11 @@
+public List<Account> getText(String s){
+
+
+    List<Account> accs=[SELECT NAME,Email,(SELECT NAME ,Email ) IN:s FROM Account ];
+    return accs;
+
+}
+
+this sosl query can search with those field from account and contact;
+
+

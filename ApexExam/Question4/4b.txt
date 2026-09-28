@@ -1,0 +1,9 @@
+public class without sharing{
+
+
+
+}
+
+setting the variable and method private 
+use getter and setter method to solve this problems
+

@@ -1,0 +1,4 @@
+1.query inside loop
+2. query inside loop
+3. wrong datatype decimal
+4. dml inside a loop

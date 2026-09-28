@@ -1,0 +1,9 @@
+try {
+
+    List<Lead>saveLeads=new List<Lead>();
+Databse.insert (leadsToInsert,false);
+
+
+} catch (Exception e) {
+System.debug('Error');
+}

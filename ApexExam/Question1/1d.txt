@@ -1,0 +1,6 @@
+List<Account> accs=[SELECT Id from Account];
+for(Account ac:accs){
+
+
+    //rest of the operation 
+}

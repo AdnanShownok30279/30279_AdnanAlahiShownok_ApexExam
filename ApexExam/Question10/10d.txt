@@ -1,0 +1,1 @@
+test calloutmock can automate those things

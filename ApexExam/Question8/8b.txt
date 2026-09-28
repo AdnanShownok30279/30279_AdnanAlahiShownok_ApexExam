@@ -1,0 +1,5 @@
+Http http= new Http();
+HttpRequest request= new HttpRequest();
+request.setEndPoint('');
+request.getBody();
+

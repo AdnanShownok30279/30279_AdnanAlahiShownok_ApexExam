@@ -1,0 +1,4 @@
+while dooing crud I can simply use with user__mode 
+in apex I can use System(user.mode)
+
+

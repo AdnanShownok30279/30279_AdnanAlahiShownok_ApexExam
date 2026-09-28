@@ -1,0 +1,5 @@
+Opportunity op= new Opportunity(StageName='Closed Won');
+test.startTest();
+Assert.areEqual(100,op.Opportunity_Reward__c);
+test.stopTest();
+

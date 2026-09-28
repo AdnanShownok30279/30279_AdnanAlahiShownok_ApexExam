@@ -1,0 +1,3 @@
+because the trigger is called for two events 
+before and after update
+possible impact could be duplicate audit record 

@@ -1,0 +1,3 @@
+writing business logic inside a trigger is not  a good practice
+writing a seperate trigger handler class and calling it inside the trigger helps reducing complexity of the code 
+also it reduces the security concern too

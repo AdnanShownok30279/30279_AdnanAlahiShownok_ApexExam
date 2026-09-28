@@ -1,0 +1,3 @@
+I will use async apex 
+also I would have use trigger for that kind of operation
+

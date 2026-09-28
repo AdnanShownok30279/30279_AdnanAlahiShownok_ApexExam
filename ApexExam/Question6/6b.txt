@@ -1,0 +1,36 @@
+public class testBatch implements Database.Batchable{
+
+
+    public Database.QueryLocator start(BatchableContext bc,List<sObject> scope){
+
+ return getQueryLocator('SELECT NAME,AnnualRevenue,Customer_Tier__c FROM Account  ');
+
+    }
+
+    public void execute(BatchableContext bc,List<sObject> scope){
+
+
+        for (Account ac:scope){
+
+            if(ac.AnnualRevenue>=1000000){
+
+             ac.Customer_Tier__c='Enterprise';
+            }
+            else if(ac.AnnualRevenue>=100000){
+                ac.Customer_Tier__c='Medium';
+
+            }
+            else{
+                ac.Customer_Tier__c='Small';
+            }
+        }
+
+        update scope;
+    }
+
+    public void finish(BatchableContext bc){
+
+        System.debug('success');
+    }
+
+}

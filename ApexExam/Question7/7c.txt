@@ -1,0 +1,8 @@
+List<Opportunity> opps=[]//query
+test.startTest();
+for(Opportunity op:opps){
+
+    Assert.areEqual(value,desiredvalue);
+}
+
+start.stopTest();

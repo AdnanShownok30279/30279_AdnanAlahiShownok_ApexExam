@@ -1,0 +1,4 @@
+it can be seen from apex jobs in the setup 
+in apex I can take a variable and initialize with 200
+if  a transaction succeded it will increament 200
+and if not another variable will calculate using same 200 initilized value 

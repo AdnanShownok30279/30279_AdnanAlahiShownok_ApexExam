@@ -1,0 +1,3 @@
+error information should be notified via notification
+the showtoast method is also great approch for that
+so that the error can be seen without debug logic

@@ -1,0 +1,4 @@
+first I will configure external credential and I will set the principle for the api key
+then I will set the principle in the permission set
+then I configure the named credential
+
